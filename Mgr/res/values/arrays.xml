@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="groups">
+        <item name="1">Daily</item>
+        <item name="7">Weekly</item>
+        <item name="31">Monthly</item>
+        <item name="365">Yearly</item>
+        
+    </string-array>
+	<string-array name="syncGroupValues">
+        <item name="1">1</item>
+        <item name="7">7</item>
+        <item name="31">31</item>
+        <item name="365">365</item>
+    </string-array>
+	
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    
+	<color name="edt_pressed">#99CBFF00</color>
+<color name="edt_focused">#CEF7F600</color>
+<color name="edt_default">#00000000</color>
+<color name="edt_black">#FF000000</color>
+<color name="edt_compulsory">#FFFF0000</color>
+<color name="title_white">#FFFFFFFF</color>
+<color name="btn_pressed_color">#FF086FA6</color>
+
+</resources>

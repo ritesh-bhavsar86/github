@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mgr</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="pref_Title_Category">Categories</string>
+    <string name="pref_Title_Group">Groups</string>
+    <string name="pref_group_summary">expenses group wise</string>
+    <string name="pref_groups">Select Group</string>
+    
+    
+    <string name="hello_world">Hello world!</string>
+
+    <string name="hint_curr_date">current date</string>
+    <string name="hint_tags">tags</string>
+    <string name="hint_comments">comments</string>
+    <string name="hint_rs">Rs</string>
+    <string name="hint_rs_type">Type of Rs</string>
+    <string name="hint_category_Name">Category Name</string>
+    
+    <string name="Rs_Symbol">\u20B9</string>
+    
+</resources>

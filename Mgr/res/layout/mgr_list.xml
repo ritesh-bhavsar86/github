@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <TextView
+        android:id="@+id/currdate"
+        android:layout_width="29dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:lines="1"
+        android:text="@string/hint_curr_date"
+        android:textSize="12sp" 
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tags"
+        android:layout_width="18dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:lines="1"
+        android:text="@string/hint_tags"
+        android:textSize="12sp" 
+        >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/comments"
+        android:layout_width="55dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:lines="1"
+        android:text="@string/hint_comments"
+        android:textSize="12sp" 
+        >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/rs"
+        android:layout_width="25dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:lines="1"
+        android:text="@string/hint_rs"
+        android:textSize="12sp" 
+        >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/rs_type"
+        android:layout_width="20dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:lines="1"
+        android:text="@string/hint_rs_type"
+        android:textSize="12sp" 
+        >
+    </TextView>
+    </LinearLayout>
+     <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="empty list" />
+
+</LinearLayout>
